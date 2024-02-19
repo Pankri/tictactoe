@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2c0066;
+  user-select: none;
+  color: #eee;
+}
+
+header {
+  height: 150px;
+}
+
+.table{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #66f;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: #2c0066;
+  margin: 0;
+  display: grid;
+  align-items: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.block:hover {
+  cursor: pointer;
+}
+
+.gameStatus {
+  height: 100px;
+  display: grid;
+  align-items: center;
+}
+
+.resetButton {
+  height: 60px;
+  width: 150px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #66f;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+}
+
+/* metrics for strike depends winning combination */
+.strike-1{
+  top: 265px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.strike-2 {
+  top: 425px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.strike-3 {
+  top: 580px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.strike-4 {
+  grid-column: 1;
+  top: 420px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+  transform: rotate(90deg);
+  translate: -160px;
+}
+
+.strike-5 {
+  top: 420px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+  transform: rotate(90deg);
+}
+
+.strike-6 {
+  top: 420px;
+  background-color: #aa3333;
+  width: 450px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+  transform: rotate(90deg);
+  translate: 160px;
+}
+
+.strike-7 {
+  top: 420px;
+  background-color: #aa3333;
+  width: 550px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+  transform: rotate(45deg);
+  translate: -50px;
+}
+
+.strike-8 {
+  top: 420px;
+  background-color: #aa3333;
+  width: 550px;
+  height: 5px;
+  position: absolute;
+  margin-left: 10px;
+  transform: rotate(-45deg);
+  translate: -50px;
+}
