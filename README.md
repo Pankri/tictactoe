@@ -1,2 +1,2 @@
-# Hola!
-este es el primer proyecto que subo a GitHub
+# Hi!
+this is my first project that i publish on GitHub
