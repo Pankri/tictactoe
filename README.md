@@ -1,2 +1,2 @@
-Hola!
-Primer proyecto que subo a GitHub
+# Hola!
+este es el primer proyecto que subo a GitHub
