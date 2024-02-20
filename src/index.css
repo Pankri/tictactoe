@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
   font-family: "Roboto", "sans-serif";
   font-size: 30px;
@@ -19,7 +20,9 @@ header {
 }
 
 .table{
+  width: 470px;
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   background-color: #66f;
@@ -138,4 +141,64 @@ header {
   margin-left: 10px;
   transform: rotate(-45deg);
   translate: -50px;
+}
+
+@media only screen and (max-width: 469px) {
+  
+  .table {
+    width: 100%;
+    display: grid;
+    align-items: center;
+  }
+
+  .block {
+      width: 120px;
+      height: 120px;
+  }
+
+  .strike-1 {
+    width: 350px;
+    top: 250px;
+  }
+
+  .strike-2 {
+    width: 350px;
+    top: 380px;
+  }
+
+  .strike-3 {
+    width: 350px;
+    top: 510px;
+  }
+
+  .strike-4 {
+    width: 350px;
+    translate: -125px;
+    top: 375px;
+  }
+
+  .strike-5 {
+    width: 350px;
+    translate: 5px;
+    top: 375px;
+  }
+
+  .strike-6 {
+    width: 350px;
+    translate: 135px;
+    top: 375px;
+  }
+
+  .strike-7 {
+    top: 380px;
+    width: 450px;
+    translate: -45px;
+  }
+
+  .strike-8 {
+    top: 380px;
+    width: 450px;
+    translate: -45px;
+  }
+
 }
