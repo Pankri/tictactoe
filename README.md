@@ -1,2 +1,3 @@
 # Hi!
-this is my first project that i publish on GitHub
+this is my first repo that i publish on GitHub. 
+A simple game using JavaScript and React.
